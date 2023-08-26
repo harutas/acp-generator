@@ -16,7 +16,7 @@
   "lint-staged": {
     "*.{js,ts,vue}": [
       "eslint src/ --fix --ignore-path .gitignore",
-      "prettier --write src/"
+      "prettier --write src/ --ignore-path .gitignore"
     ]
   },
   "dependencies": {
